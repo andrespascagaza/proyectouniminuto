@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/ingresar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:text="¿Ya tienes tu cuenta?"
+        android:textColor="#1E88E5"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/inscribete_facebook"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/inscribete_facebook"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:text="Ingresa con Facebook"
+        android:textColor="#090404"
+        app:icon="@drawable/icons8_facebook_nuevo_30"
+        app:iconTint="#0E0808"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/logo_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:text="Inscribete"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:text="Cree una cuenta gratuita para unirse a la comunidad Food Nearby"
+        android:textAlignment="center"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="373dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

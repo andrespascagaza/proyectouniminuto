@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:backgroundTint="#3B8C3F"
+    android:backgroundTintMode="src_in"
+    android:foregroundTint="#BFFFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/logo_" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="77dp"
+        android:layout_height="64dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#3B8C3F"
+        app:icon="@drawable/icons8_cerrar_ventana_50"
+        app:iconTint="#3B8C3F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/ingresar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:text="Continuar con Facebook"
+        android:textColor="#090404"
+        app:icon="@drawable/icons8_facebook_nuevo_30"
+        app:iconTint="#0E0808"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/ingresar2"
+        android:layout_width="281dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="280dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:text="Continuar con Ti"
+        android:textColor="#040202"
+        app:icon="@drawable/icons8_twitter_30"
+        app:iconTint="#0E0808"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar1" />
+
+    <Button
+        android:id="@+id/ingresar3"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#B18316"
+        android:text="ingresa con Email"
+        android:textColor="#0B0606"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar2" />
+
+    <Button
+        android:id="@+id/ingresar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:text="¿Ya tienes tu cuenta?"
+        android:textColor="#1E88E5"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar3"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="265dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:text="Al registrate, acepta los terminos de servicio y la politica de privacidad "
+        android:textColor="#039BE5"
+        android:textDirection="firstStrongRtl"
+        android:textIsSelectable="false"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar4"
+        tools:layout_editor_absoluteX="73dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

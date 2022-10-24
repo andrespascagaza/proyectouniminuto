@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/logo_" />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#00FFFFFF"
+        android:text="¿Ya tienes tu cuenta?"
+        android:textColor="#1E88E5"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/inscribete_twitter"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/inscribete_twitter"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:text="Ingresa con Twitter"
+        android:textColor="#090404"
+        app:icon="@drawable/icons8_twitter_30"
+        app:iconTint="#0E0808"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:text="Inscribete"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="157dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:text="Cree una cuenta gratuita para unirse a la comunidad Food Nearby"
+        android:textAlignment="center"
+        app:autoSizeTextType="none"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="85dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
